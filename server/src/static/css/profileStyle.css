@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F5F5F5;
+}
+:root {
+    --maincolor: #607D8B;
+    --secondcolor: #fff;
+    --mainpadding: 20px;
+}
+.container {
+    margin: 50px auto;
+    width: 980px;
+}
+hr {
+    display: block;
+    margin: 20px 0;
+    border-color: #eeeeee2c;
+}
+h2 {
+    padding: 10px;
+    background-color:var(--maincolor);
+    margin-top: 0;
+    width: fit-content;
+    color: var(--secondcolor);
+}
+p {
+    color: var(--maincolor);
+}
+span {
+    font-weight: bold;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header .col-left {
+    background-color:var(--secondcolor);
+    margin-right: 3px;
+    text-align: center;
+    padding: var(--mainpadding);
+}
+.header .col-left img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 0 3px 3px #d1d0d0;
+}
+.header .col-left .progress {
+	background-color: #F5F5F5;
+	border-radius: 5px;
+	position: relative;
+    width: 200px;
+	height: 17px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.header .col-left .progress-done {
+    background-color: #009688;
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+    position: absolute;
+    width: 150px;
+    height: 100%;
+}
+.header .col-left p {
+    font-size: 13px;
+}
+.header .col-left p span {
+    color: #009688;
+}
+.header .col-right {
+    background-color: var(--secondcolor);
+    padding: var(--mainpadding);
+    position: relative;
+}
+.header .col-right h1 {
+    margin-top: 0;
+    font-size: 25px;
+}
+.header .col-right p {
+    line-height: 2;
+}
+.header .col-right div {
+    color: var(--maincolor);
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+    font-size: 14px;
+}
+.points-log {
+    background-color: var(--secondcolor);
+    padding: var(--mainpadding);
+}
+.points-log p {
+    font-size: 20px;
+}
+.points-log p .one {
+    color: #009688;
+}
+.points-log p .two {
+    color: #E80F58;
+}
+.trophies {
+    background-color: var(--secondcolor);
+    padding: var(--mainpadding);
+}
+.trophies .image {
+    display: flex;
+    flex-wrap: wrap;
+}
+.trophies .image {
+    display: block;
+}
+.trophies img {
+    width: 74px;
+    height: 74px;
+}
+.trophies .image .opa {
+    opacity: .1;
+}
+.news {
+    background-color: var(--secondcolor);
+    padding: var(--mainpadding);
+}
+.news p {
+    font-size: 20px;
+}
+.news p .one {
+    color: #F44336;
+}
+.news p .two {
+color: #2196F3;
+}
+.powers {
+    background-color: var(--secondcolor);
+    padding: var(--mainpadding);
+}
+.powers .que {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.powers p {
+    font-size: 18px;
+}
+.powers hr {
+    margin: 0;
+}
+.powers span {
+    font-size: 20px;
+}
+.powers .que .green {
+    color: #158000;
+}
+.powers .que .red {
+    color: red;
+}
