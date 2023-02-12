@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Quiz</title>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- font awesome 4 cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'welcome.css')}}">
+ 	<link rel="stylesheet" type="text/css" href="../static/welcome.css">
+
+</head>
+
+<body>
+<!--quiz grid starts-->
+<section class="q-grid" id="qg">
+    <h2 class="q-head" id="quiz" style="color: rgba(63,6,96,0.925);">QUIZ SECTION</h2>
+    <div class="q-boxcontain">
+        <div class="q-contain">
+            <img src="../static/images/balloons.jpeg" alt="" class="image">
+            <div class="contents">
+                <h3>Lets Go out!</h3>
+                <p>Take this short quiz for us to open you up to your next adventure!</p>
+                    <div class="box-text">
+                        <a  href="{{ url_for('quiz2') }}" style="color:#fff;"><button id="btn">Take Quiz</button></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="../static/js/main.js"></script>
+</body>
+</html>
